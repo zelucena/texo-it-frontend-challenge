@@ -10,5 +10,5 @@ export default function ProducersMinMaxWins () {
         return "Loading";
     }
 
-    return <ProducersMinMaxWinsCard min={awardsInterval.min} max={awardsInterval.max}/>;
+    return <ProducersMinMaxWinsCard min={awardsInterval?.min || []} max={awardsInterval?.max || []}/>;
 }

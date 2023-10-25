@@ -1,10 +1,3 @@
-import {
-    useGetAwardsIntervalQuery,
-    useGetMovieDataQuery,
-    useGetMovieWinnersByYearQuery,
-    useGetStudiosQuery,
-    useGetYearsWithMultipleWinnersQuery,
-} from "../../../store/services/movies/moviesApi";
 import { Col, Row } from "react-bootstrap";
 
 import YearsWithMultipleWinners from "./YearsWithMultipleWinners";

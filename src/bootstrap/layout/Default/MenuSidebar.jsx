@@ -1,6 +1,3 @@
-import { Col, Row } from "react-bootstrap";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 
 export default function MenuSidebar () {
@@ -9,7 +6,7 @@ export default function MenuSidebar () {
             className="d-none d-md-block bg-light sidebar text-start"
             activeKey="/"
             // style={{ position: "fixed", height: "100%"}}
-            style={{ height: "100%"}}
+            style={{ height: "100vh"}}
         >
             <div className="sidebar-sticky"></div>
             <Nav.Item>

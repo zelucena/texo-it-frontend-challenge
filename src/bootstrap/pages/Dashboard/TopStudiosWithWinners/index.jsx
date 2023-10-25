@@ -8,6 +8,6 @@ export default function TopStudiosWithWinners() {
         return "loading";
     }
 
-    const studios = data.studios.slice(0, 3);
+    const studios = data?.studios ? data.studios.slice(0, 3) : [];
     return <TopStudiosWithWinnersCard studiosWithWinners={studios} top={3}/>
 }

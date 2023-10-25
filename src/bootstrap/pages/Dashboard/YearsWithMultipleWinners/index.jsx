@@ -7,5 +7,5 @@ export default function YearsWithMultipleWinners () {
     if (isLoading) {
         return "loading";
     }
-    return <YearsWithMultipleWinnersCard yearsWinners={data.years} />;
+    return <YearsWithMultipleWinnersCard yearsWinners={data?.years || []} />;
 }

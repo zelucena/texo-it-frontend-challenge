@@ -17,11 +17,11 @@ export const moviesApi = createApi({
                 const { page, size, winner, year } = query || { };
                 const params = new URLSearchParams();
                 params.set('page', page || 0);
-                params.set('size', size || 50);
+                params.set('size', size || 15);
                 if (Number(year)) {
                     params.set('year', year);
                 }
-                if (winner !== undefined) {
+                if (winner === "true" || winner === "false") {
                     params.set('winner', winner);
                 }
                 return `/backend-java/api/movies?${params.toString()}`;
