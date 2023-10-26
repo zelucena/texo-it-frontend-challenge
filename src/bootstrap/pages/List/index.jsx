@@ -4,6 +4,7 @@ import { useState } from "react";
 import FilterYear from "./FilterYear";
 import FilterWinner from "./FilterWinner";
 import MoviesPagination from "./Pagination";
+
 /**
  * Sidenote: these filters are still very simple and are not hurting the rerender performance.
  * If it became too complex I'd probably go for react-hook-forms. As of now it doesn't seem to be required
@@ -11,8 +12,8 @@ import MoviesPagination from "./Pagination";
  * @constructor
  */
 export default function Index() {
-    const [year, setYear ] = useState('');
-    const [winner, setWinner ] = useState('all');
+    const [year, setYear] = useState('');
+    const [winner, setWinner] = useState('all');
     const [page, setPage] = useState(0);
 
     const { data, isLoading } = useGetMovieDataQuery({ year, winner, page });

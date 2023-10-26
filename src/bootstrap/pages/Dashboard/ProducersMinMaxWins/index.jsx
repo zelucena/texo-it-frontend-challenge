@@ -1,9 +1,7 @@
-import {
-    useGetAwardsIntervalQuery,
-} from "../../../../store/services/movies/moviesApi";
+import { useGetAwardsIntervalQuery } from "../../../../store/services/movies/moviesApi";
 import ProducersMinMaxWinsCard from "./ProducersMinMaxWinsCard";
 
-export default function ProducersMinMaxWins () {
+export default function ProducersMinMaxWins() {
     const { data: awardsInterval, isLoading } = useGetAwardsIntervalQuery();
 
     if (isLoading) {

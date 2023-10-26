@@ -14,7 +14,7 @@ export const moviesApi = createApi({
          */
         getMovieData: builder.query({
             query: (query) => {
-                const { page, size, winner, year } = query || { };
+                const { page, size, winner, year } = query || {};
                 const params = new URLSearchParams();
                 params.set('page', page || 0);
                 params.set('size', size || 15);

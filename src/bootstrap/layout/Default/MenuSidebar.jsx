@@ -1,19 +1,22 @@
 import Nav from "react-bootstrap/Nav";
+import { LinkContainer } from 'react-router-bootstrap';
 
-export default function MenuSidebar () {
+export default function MenuSidebar() {
     return (
         <Nav
             className="d-none d-md-block bg-light sidebar text-start"
             activeKey="/"
-            // style={{ position: "fixed", height: "100%"}}
-            style={{ height: "100vh"}}
+            style={{ height: "100vh" }}
         >
-            <div className="sidebar-sticky"></div>
             <Nav.Item>
-                <Nav.Link href="/">Dashboard</Nav.Link>
+                <LinkContainer to="/">
+                    <Nav.Link>Dashboard</Nav.Link>
+                </LinkContainer>
             </Nav.Item>
             <Nav.Item>
-                <Nav.Link href="/list">List</Nav.Link>
+                <LinkContainer to="/list">
+                    <Nav.Link>List</Nav.Link>
+                </LinkContainer>
             </Nav.Item>
         </Nav>
     );

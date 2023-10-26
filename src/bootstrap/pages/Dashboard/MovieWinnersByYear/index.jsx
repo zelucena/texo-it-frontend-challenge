@@ -10,5 +10,5 @@ export default function MovieWinnersByYear() {
         return "loading";
     }
 
-    return <MovieWinnersByYearCard winners={data || []} setYear={setYear} />
+    return <MovieWinnersByYearCard winners={data || []} setYear={setYear}/>
 }

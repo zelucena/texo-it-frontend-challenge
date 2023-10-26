@@ -4,9 +4,8 @@ import 'react-bootstrap-table-next/dist/react-bootstrap-table2.min.css';
 import Navbar from "./TopNavbar";
 import MenuSidebar from "./MenuSidebar";
 import Container from "react-bootstrap/Container";
-import { router } from "../../router";
-import { RouterProvider } from "react-router-dom";
 import { Col, Row } from "react-bootstrap";
+import { Outlet } from "react-router-dom";
 
 export default function ReactLayout() {
     return (
@@ -17,7 +16,7 @@ export default function ReactLayout() {
                     <MenuSidebar/>
                 </Col>
                 <Col>
-                    <RouterProvider router={router} />
+                    <Outlet/>
                 </Col>
             </Row>
         </Container>

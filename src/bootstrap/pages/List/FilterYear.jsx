@@ -8,7 +8,7 @@ export default function FilterYear({ filter }) {
         clearTimeout(debounce);
         filter(year);
     }, 400);
-    return(
+    return (
         <Form.Control
             placeholder="Filter by year"
             value={year}
