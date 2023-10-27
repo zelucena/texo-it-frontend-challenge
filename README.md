@@ -1,3 +1,9 @@
+Assumptions:
+The mockups were in English and I'm aware I may be collaborating with an international team, therefore I did my code as such. 
+I avoided making decisions outside the task requirements.
+I understand that in an agile environment things do evolve as they're agreed on sprint plannings.
+That being said, specific behaviors were done just as much as necessary.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

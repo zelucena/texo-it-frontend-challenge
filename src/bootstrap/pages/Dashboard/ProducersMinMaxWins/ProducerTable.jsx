@@ -15,7 +15,7 @@ export default function ProducerTable({ producers }) {
     const rows = getRows(producers);
 
     return (
-        <Table striped>
+        <Table striped data-testid="producers-table">
             <thead>
             <tr>
                 <th>Producer</th>

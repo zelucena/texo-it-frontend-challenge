@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 export default function TopNavbar() {
     return (
-        <Navbar expand="lg" bg="dark" data-bs-theme="dark">
+        <Navbar expand="lg" bg="dark" data-bs-theme="dark" data-testid="title-navbar">
             <Container>
                 <Navbar.Brand href="/">Frontend React Test</Navbar.Brand>
             </Container>

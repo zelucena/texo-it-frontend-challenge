@@ -14,7 +14,7 @@ export default function TopStudiosWithWinnersTable({ studiosWithWinners }) {
     const rows = getRows(studiosWithWinners);
 
     return (
-        <Table striped>
+        <Table striped data-testid="top-studios-table">
             <thead>
             <tr>
                 <th>Name</th>

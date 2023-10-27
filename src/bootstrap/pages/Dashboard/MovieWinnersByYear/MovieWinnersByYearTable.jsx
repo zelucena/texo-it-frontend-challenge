@@ -15,7 +15,7 @@ export default function MovieWinnersByYearTable({ winners }) {
     const rows = getRows(winners);
 
     return (
-        <Table striped>
+        <Table striped data-testid="movie-winners-by-year-table">
             <thead>
             <tr>
                 <th>Id</th>

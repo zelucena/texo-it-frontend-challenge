@@ -13,7 +13,7 @@ export default function YearsWithMultipleWinnersTable({ yearsWinners }) {
     const rows = getRows(yearsWinners);
 
     return (
-        <Table striped>
+        <Table striped data-testid="years-with-multiple-winners-table">
             <thead>
             <tr>
                 <th>Year</th>

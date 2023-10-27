@@ -7,6 +7,7 @@ export default function MenuSidebar() {
             className="d-none d-md-block bg-light sidebar text-start"
             activeKey="/"
             style={{ height: "100vh" }}
+            data-testid="menu-sidebar"
         >
             <Nav.Item>
                 <LinkContainer to="/">
