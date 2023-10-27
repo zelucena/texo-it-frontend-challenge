@@ -1,1 +1,28 @@
-[{"id":36,"year":1986,"title":"Howard the Duck","studios":["Universal Studios"],"producers":["Gloria Katz"],"winner":true},{"id":37,"year":1986,"title":"Under the Cherry Moon","studios":["Warner Bros."],"producers":["Bob Cavallo","Joe Ruffalo","Steve Fargnoli"],"winner":true}]
+[
+  {
+    "id": 36,
+    "year": 1986,
+    "title": "Howard the Duck",
+    "studios": [
+      "Universal Studios"
+    ],
+    "producers": [
+      "Gloria Katz"
+    ],
+    "winner": true
+  },
+  {
+    "id": 37,
+    "year": 1986,
+    "title": "Under the Cherry Moon",
+    "studios": [
+      "Warner Bros."
+    ],
+    "producers": [
+      "Bob Cavallo",
+      "Joe Ruffalo",
+      "Steve Fargnoli"
+    ],
+    "winner": true
+  }
+]

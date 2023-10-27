@@ -3,7 +3,7 @@ import ProducersMinMaxWinsCard from "./ProducersMinMaxWinsCard";
 import minMax from './minMax.fixture.json';
 
 test('Render the card with empty tables', () => {
-    render(<ProducersMinMaxWinsCard min={[]} max={[]} />);
+    render(<ProducersMinMaxWinsCard min={[]} max={[]}/>);
 
     const card = screen.getByTestId('producers-min-max-wins-card');
     expect(card).toBeInTheDocument();
@@ -19,7 +19,7 @@ test('Render the card with empty tables', () => {
 });
 
 test('Render the card with max and min tables with one producer each', () => {
-    render(<ProducersMinMaxWinsCard min={minMax.min} max={minMax.max} />);
+    render(<ProducersMinMaxWinsCard min={minMax.min} max={minMax.max}/>);
 
     const card = screen.getByTestId('producers-min-max-wins-card');
 

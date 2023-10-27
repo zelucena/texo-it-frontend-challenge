@@ -4,7 +4,7 @@ import MovieWinnersByYearTable from "./MovieWinnersByYearTable";
 import winners from './winners.fixture.json';
 
 test('Render the winners table with empty data', () => {
-    render(<MovieWinnersByYearTable winners={[]} />);
+    render(<MovieWinnersByYearTable winners={[]}/>);
 
     const tableBody = screen.getByTestId('movie-winners-by-year-table').querySelector('tbody');
     const rows = tableBody.getElementsByTagName('tr');
@@ -12,7 +12,7 @@ test('Render the winners table with empty data', () => {
 });
 
 test('Render the winners table with fixture data', () => {
-    render(<MemoryRouter><MovieWinnersByYearTable winners={winners} /></MemoryRouter>);
+    render(<MemoryRouter><MovieWinnersByYearTable winners={winners}/></MemoryRouter>);
 
     const tableBody = screen.getByTestId('movie-winners-by-year-table').querySelector('tbody');
     const rows = tableBody.getElementsByTagName('tr');

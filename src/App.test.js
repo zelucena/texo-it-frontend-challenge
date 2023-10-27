@@ -1,8 +1,8 @@
-import { render, screen } from '@testing-library/react';
+import { render } from '@testing-library/react';
 import App from './App';
 
 test('Render the app', () => {
-    const { container } = render(<App />);
+    const { container } = render(<App/>);
 
     const appElement = container.querySelector('.App');
 
