@@ -1,9 +1,15 @@
-Assumptions:
-The mockups were in English and I'm aware I may be collaborating with an international team, therefore I did my code as
-such.
-I avoided making decisions outside the task requirements.
-I understand that in an agile environment things do evolve as they're agreed on sprint plannings.
-That being said, specific behaviors were done just as much as necessary.
+Project structure
+
+├── src
+│   ├── bootstrap
+│   │   ├── layout Loads React-Bootstrap / Bootstrap 5. It defines default layout
+│   │   ├── pages
+│   │   │   ├── Dashboard
+│   │   │   ├── List
+│   ├── router react-router
+│   ├── store redux-toolkit / rtk-query. It defines hooks to API endpoints
+│   ├── App.js entrypoint
+
 
 # Getting Started with Create React App
 
@@ -26,6 +32,9 @@ You may also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more
 information.
+
+### `npm test -- --coverage`
+Launches the test runner with coverage report
 
 ### `npm run build`
 

@@ -1,4 +1,4 @@
-import { useGetYearsWithMultipleWinnersQuery } from "../../../../store/services/movies/moviesApi";
+import { useGetYearsWithMultipleWinnersQuery } from "../../../../../store/services/movies/moviesApi";
 import YearsWithMultipleWinnersCard from "./YearsWithMultipleWinnersCard";
 
 export default function YearsWithMultipleWinners() {

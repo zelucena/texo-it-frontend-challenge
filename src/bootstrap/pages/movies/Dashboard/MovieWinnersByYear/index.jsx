@@ -1,5 +1,5 @@
 import MovieWinnersByYearCard from "./MovieWinnersByYearCard";
-import { useGetMovieWinnersByYearQuery } from "../../../../store/services/movies/moviesApi";
+import { useGetMovieWinnersByYearQuery } from "../../../../../store/services/movies/moviesApi";
 import { useState } from "react";
 
 export default function MovieWinnersByYear() {

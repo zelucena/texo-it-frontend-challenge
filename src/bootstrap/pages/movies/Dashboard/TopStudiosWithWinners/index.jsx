@@ -1,5 +1,5 @@
 import TopStudiosWithWinnersCard from "./TopStudiosWithWinnersCard";
-import { useGetStudiosQuery } from "../../../../store/services/movies/moviesApi";
+import { useGetStudiosQuery } from "../../../../../store/services/movies/moviesApi";
 
 export default function TopStudiosWithWinners() {
     const { data, isLoading } = useGetStudiosQuery();

@@ -1,4 +1,4 @@
-import { useGetAwardsIntervalQuery } from "../../../../store/services/movies/moviesApi";
+import { useGetAwardsIntervalQuery } from "../../../../../store/services/movies/moviesApi";
 import ProducersMinMaxWinsCard from "./ProducersMinMaxWinsCard";
 
 export default function ProducersMinMaxWins() {

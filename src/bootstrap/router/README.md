@@ -1,2 +1,0 @@
-Routes paths to components. Since the router is defined as an array of routes, there may be file separation by modules
-in the future.

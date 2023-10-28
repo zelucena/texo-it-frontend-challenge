@@ -1,6 +1,13 @@
 import { Form } from "react-bootstrap";
 import { useEffect, useState } from "react";
 
+/**
+ * Input filter for whether is winner of not. "All" refers to all entries
+ * This field is responsible solely for presentation
+ * @param filter on filter callback
+ * @returns {JSX.Element}
+ * @constructor
+ */
 export default function FilterWinner({ filter }) {
     const [winner, setWinner] = useState('all');
 
@@ -9,6 +16,7 @@ export default function FilterWinner({ filter }) {
     }, [filter, winner]);
 
     return <Form.Select
+        data-testid="filter-winner-input"
         value={winner}
         onChange={e => {
             setWinner(e.target.value);
