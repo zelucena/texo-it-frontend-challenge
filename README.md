@@ -1,5 +1,5 @@
 Project structure
-
+```
 ├── src
 │   ├── bootstrap
 │   │   ├── layout Loads React-Bootstrap / Bootstrap 5. It defines default layout
@@ -9,7 +9,7 @@ Project structure
 │   ├── router react-router
 │   ├── store redux-toolkit / rtk-query. It defines hooks to API endpoints
 │   ├── App.js entrypoint
-
+```
 
 # Getting Started with Create React App
 
